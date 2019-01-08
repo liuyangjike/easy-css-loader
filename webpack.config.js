@@ -33,7 +33,6 @@ module.exports = {
       {
         test: /\.vue$/,
         use: [
-          //'vue-loader', 'easy-css-loader'
           {
             loader: 'vue-loader'
           },
