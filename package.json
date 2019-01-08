@@ -16,6 +16,7 @@
     "babel-preset-env": "^1.7.0",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.0",
+    "easy-css-loader": "^1.0.3",
     "file-loader": "^2.0.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
