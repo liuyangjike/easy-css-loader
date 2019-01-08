@@ -1,11 +1,9 @@
 <template>
   <div>
-    <h1>Helllo World</h1>
+    <!-- <h1>Helllo World</h1>
     <div style="color: red; font-size: 50px;margin-left: 100px">PX2REM</div>
-    <input type="text" placeholder="ni">
+    <input type="text" placeholder="ni"> -->
     <div class="easy-scss">
-      <!-- <div>1</div> -->
-      1
     </div>
   </div>
   
@@ -19,11 +17,11 @@
 
 <style scoped>
   .easy-scss{
-    font(40px, blue, center);
     border: 1px solid red;
     wh(100px, 80px);
-    posR();
-    comB(http://ww1.sinaimg.cn/large/b44313e1gy1fyz1li77jzj20q411wdop.jpg);
+    posC;
+    /* font(20px, yellow, center); */
+    /* comB(http://ww1.sinaimg.cn/large/b44313e1gy1fyz1li77jzj20q411wdop.jpg); */
     /* flex(center, flex-start); */
   }
 </style>
