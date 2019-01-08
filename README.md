@@ -29,7 +29,7 @@
 ## 使用文档
 ### 配置
 
-1. npm install -D easy-css-loader
+1. `npm install -D easy-css-loader`
 2. 修改`webpack`配置文件(以`vue`为例)
 ```js
 {
@@ -78,3 +78,84 @@
   }
 </style>
 ```
+
+
+### flex
+
+```html
+<style >
+  .easy-css{
+    flex;  
+  }
+</style>
+<!-- 相当于(也可以往flex(left, flex-start);) -->
+<style >
+  .easy-css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
+```
+
+
+
+### posC
+
+```html
+<style >
+  .easy-css{
+    posC;
+  }
+</style>
+<!-- 相当于 -->
+<style >
+  .easy-css{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+  }
+</style>
+```
+
+
+### posL
+
+```html
+<style >
+  .easy-css{
+    posL;
+  }
+</style>
+<!-- 相当于 -->
+<style >
+  .easy-css{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translate3d(0, -50%, 0);
+  }
+</style>
+```
+
+
+### posR
+
+```html
+<style >
+  .easy-css{
+    posR;
+  }
+</style>
+<!-- 相当于 -->
+<style >
+  .easy-css{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translate3d(0, -50%, 0);
+  }
+</style>
+```
+
