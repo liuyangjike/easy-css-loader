@@ -92,8 +92,8 @@
 <style >
   .easy-css{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center;  // 可选参数
+    align-items: center;  // 可选参数
   }
 </style>
 ```
@@ -128,12 +128,12 @@
     posL;
   }
 </style>
-<!-- 相当于 -->
+<!-- 相当于 (也可以往posL(absolute, 10px) -->
 <style >
   .easy-css{
-    position: absolute;
+    position: absolute;  // 可选参数
     top: 50%;
-    left: 30px;
+    left: 30px;   // 可选参数
     transform: translate3d(0, -50%, 0);
   }
 </style>
@@ -148,12 +148,12 @@
     posR;
   }
 </style>
-<!-- 相当于 -->
+<!-- 相当于   (也可以往posR(absolute, 10px) -->
 <style >
   .easy-css{
-    position: absolute;
+    position: absolute;   // 可选参数
     top: 50%;
-    right: 30px;
+    right: 30px;   // 可选参数
     transform: translate3d(0, -50%, 0);
   }
 </style>
