@@ -10,9 +10,9 @@
  
 ## 效果图
 
-<img src="http://ww1.sinaimg.cn/mw690/b44313e1gy1fyz3oh640ij20pv0h5wjl.jpg" width="400" height="400"/>
-对应代码:
-```html
+<img src="http://ww1.sinaimg.cn/mw690/b44313e1gy1fyz3oh640ij20pv0h5wjl.jpg" width="600" height="400"/>
+对应代码:</br>
+``` html
 <div>
   <div class="easy-scss"></div>
 </div>
