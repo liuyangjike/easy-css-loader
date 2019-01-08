@@ -88,7 +88,7 @@
     flex;  
   }
 </style>
-<!-- 相当于(也可以往flex(left, flex-start);) -->
+<!-- 相当于(也可以往flex(left, flex-start);传参) -->
 <style >
   .easy-css{
     display: flex;
@@ -128,7 +128,7 @@
     posL;
   }
 </style>
-<!-- 相当于(也可以往posL(absolute, 10px) -->
+<!-- 相当于(也可以往posL(absolute, 10px); 传参-->
 <style >
   .easy-css{
     position: absolute;  // 可选参数
@@ -148,7 +148,7 @@
     posR;
   }
 </style>
-<!-- 相当于(也可以往posR(absolute, 10px) -->
+<!-- 相当于(也可以往posR(absolute, 10px); 传参-->
 <style >
   .easy-css{
     position: absolute;   // 可选参数
