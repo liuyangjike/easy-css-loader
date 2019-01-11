@@ -32,18 +32,15 @@ module.exports = {
       },
       {
         test: /\.vue$/,
-        use: [
-          {
-            loader: 'vue-loader'
-          },
-          {
-            loader: path.join(__dirname, './lib/easy-css.js'),
-          }
-        ]
+        use: ['vue-loader']
       },
       {
-        test: /\.css$/,     // 解析css, 包括.vue里面的style里的css
-        use: ['vue-style-loader', 'css-loader'] // 从右向左解析
+        test: /\.css$/,     //
+        use: [
+          {loader: 'vue-style-loader'}, 
+          {loader: 'css-loader'},
+          {loader: path.join(__dirname, './lib/easy-css.js')}
+        ] // 从右向左解析
       }
     ]
   },

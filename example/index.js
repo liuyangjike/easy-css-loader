@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App'
+// import './App.css'
 
 var vm = new Vue({
   el: '#app',
