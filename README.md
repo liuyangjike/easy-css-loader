@@ -36,8 +36,8 @@
   module: {
     rules: [
       {
-        test: /\.vue$/,
-        use: ['vue-loader', 'easy-css-loader']
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader', 'easy-css-loader']
       }
     ]
   }
