@@ -39,7 +39,9 @@ module.exports = {
         use: [
           {loader: 'vue-style-loader'}, 
           {loader: 'css-loader'},
+          // {loader: 'easy-css-loader'}
           {loader: path.join(__dirname, './lib/easy-css.js')}
+
         ] // 从右向左解析
       }
     ]

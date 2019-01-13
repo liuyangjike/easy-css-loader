@@ -26,11 +26,18 @@
 </style>
 ```
 
+## 说明
+>启动
+1. `npm install`
+2. `npm run dev`
+> 觉得对你有帮助,请点右上角的`Star`支持一下</br>
+> 推荐一下我的另一个项目基于vue的UI框架(教你从零开始造轮子) [点这里](https://github.com/liuyangjike/vue-console)
+
 ## 使用文档
 ### 配置
 
 1. `npm install -D easy-css-loader`
-2. 修改`webpack`配置文件(以`vue`为例)
+2. 修改`webpack`配置文件(以`vue`项目为例)
 ```js
 {
   module: {
@@ -158,4 +165,6 @@
   }
 </style>
 ```
+
+
 
