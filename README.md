@@ -1,6 +1,6 @@
 ## easy-css-loader
 
-![](https://img.shields.io/badge/easy--css--loader-1.0.0-blue.svg)
+![](https://img.shields.io/badge/easy--css--loader-1.0.5-blue.svg)
 
 
 ## 介绍
